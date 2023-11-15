@@ -27,6 +27,16 @@ sleep 0.5
 cp filebrowser.service /etc/systemd/system/filebrowser.service
 
 echo "Enabling and starting the filebrowser system service..."
+sleep 0.5
 
 systemctl enable filebrowser.service
 systemctl start filebrowser.service
+
+sleep 0.5
+
+echo "DONE! Congratulations, you now have a running FileBrowser instance!"
+sleep 0.5
+echo "Please make sure to check the settings, especially the IP-Address parameter, in /etc/filebrowser.json"
+sleep 0.5
+echo "After updating any settings make sure to run "systemmctl restart filebrowser.service"
+
