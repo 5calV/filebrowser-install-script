@@ -35,3 +35,4 @@ User: admin
 <br>
 Pass: admin
 
+NOTE: When you first logged in, change the administrator's password as soon as possible!
