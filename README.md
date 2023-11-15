@@ -21,7 +21,7 @@ Please change the IP-Address in "/etc/filebrowser.json" to yours.
 
 Default port: 8080
 <br>
-Default working directory: /var/www
+Default working directory: /var/www/html
 <br>
 You can change the working directory, the port FileBrowser is running on and many more settings in /etc/filebrowser.json
 
