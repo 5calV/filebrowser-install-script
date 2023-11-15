@@ -1,0 +1,8 @@
+{
+    "port": 8080,
+    "baseURL": "",
+    "address": "000.000.000.000",
+    "log": "stdout",
+    "database": "/etc/filebrowser.db",
+    "root": "/var/www/"
+  }
