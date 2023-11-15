@@ -18,14 +18,18 @@ Official FileBrowser Website: https://filebrowser.org/
 ## Change port / working directory
 
 Default port: 8080
+<br>
 Default working directory: /var/www
-You can change the working directory, the port FileBrowser is running on and many more settings in the config file: /etc/filebrowser.json
+<br>
+You can change the working directory, the port FileBrowser is running on and many more settings in /etc/filebrowser.json
 
 ## First Login
 
 Enter the IP-Address and the port into your browser: e.g. 127.0.0.1:8080
 
 Default Login:
+<br>
 User: admin
+<br>
 Pass: admin
 
