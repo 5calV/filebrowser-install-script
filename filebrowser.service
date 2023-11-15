@@ -1,7 +1,0 @@
-[Unit]
-Description=File Browser
-After=network.target
-[Service]
-ExecStart=/usr/local/bin/filebrowser -c /etc/filebrowser.json
-[Install]
-WantedBy=multi-user.target
