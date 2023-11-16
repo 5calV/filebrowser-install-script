@@ -17,7 +17,7 @@ Official FileBrowser Website: https://filebrowser.org/
 
    Default port: 8080
    <br>
-   Default working directory: /var/www/html
+   Default working directory: /var/www
    <br>
 You can change the working directory, the port FileBrowser is running on and many more settings in /etc/filebrowser.json
 
