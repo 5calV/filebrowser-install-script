@@ -35,8 +35,11 @@ systemctl start filebrowser.service
 sleep 0.5
 
 echo "DONE! Congratulations, you now have a running FileBrowser instance!"
-sleep 0.5
-echo "Please make sure to check the settings, especially the IP-Address parameter, in /etc/filebrowser.json"
-sleep 0.5
-echo "After updating any settings make sure to run "systemmctl restart filebrowser.service"
 
+sleep 0.5
+echo "After updating any settings in /etc/filebrowser.json make sure to run "systemmctl restart filebrowser.service""
+
+echo "Default Login:"
+echo "User: admin"
+echo "Pass: admin"
+echo "Please make sure to change the password on your first login!"

@@ -13,17 +13,16 @@ Official FileBrowser Website: https://filebrowser.org/
 
 1. Navigate into the folder which contains the files of this repository
 
-2. Run "./install.sh"
-
-## Change port / working directory / IP
-
-Please change the IP-Address in "/etc/filebrowser.json" to yours.
+2. Change the IP-Address and working directory in "filebrowser.json" to yours.
 
 Default port: 8080
 <br>
 Default working directory: /var/www/html
 <br>
 You can change the working directory, the port FileBrowser is running on and many more settings in /etc/filebrowser.json
+
+3. Run "./install.sh"
+
 
 ## First Login
 
