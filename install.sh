@@ -5,7 +5,7 @@ sleep 1
 echo "Updating repositories..."
 sleep 0.5
 
-apt update && apt full -upgrade -y && apt install curl -y
+apt update && apt full-upgrade -y && apt install curl -y
 sleep 1
 
 echo "Updates done."
